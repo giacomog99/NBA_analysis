@@ -7,12 +7,12 @@ DASHOBARD
 This project involves the visualization of the team stats about NBA regular season 2021-2022, focusing on points and field goals, with additional insights into other statistics.
 
 Data Collection:
-	1. Shot Information: Initially, I scraped all shot data using Python and the nba.api.
+1. Shot Information: Initially, I scraped all shot data using Python and the nba.api.
 
-	2. Additional Stats: To gather additional statistics, I utilized a dataset from Kaggle (https://www.kaggle.com/datasets/nathanlauga/nba-games?resource=download&select=games_details.csv). 
+2. Additional Stats: To gather additional statistics, I utilized a dataset from Kaggle (https://www.kaggle.com/datasets/nathanlauga/nba-games?resource=download&select=games_details.csv). 
  However, this dataset was incomplete as it lacked information about wins/losses and there wasn’t an "opponent" field. To address this, I scraped another dataset from nba.api, which provided complete stats. I merged this dataset with the Kaggle 	dataset using Microsoft Excel.
  
-	3. Lookup Table: The last data that I needed is a lookup table containing team’s record and the info about if a team achieved the playoffs. I created this table by extracting data from the basketball-reference.com website (https://www.basketball-reference.com/leagues/NBA_2022.html).
+3. Lookup Table: The last data that I needed is a lookup table containing team’s record and the info about if a team achieved the playoffs. I created this table by extracting data from the basketball-reference.com website (https://www.basketball-reference.com/leagues/NBA_2022.html).
 
 
 Visualization:
